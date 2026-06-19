@@ -6,7 +6,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ModModelLayers {
     //SHEAR WILL
-    public static final ModelLayerLocation COLD_SHEEP = register("cold_sheep");
+    //public static final ModelLayerLocation COLD_SHEEP = register("cold_sheep");
     public static final ModelLayerLocation WARM_SHEEP = register("warm_sheep");
 
     private static ModelLayerLocation register(String name) {

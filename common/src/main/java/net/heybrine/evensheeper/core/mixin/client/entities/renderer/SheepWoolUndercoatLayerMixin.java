@@ -18,10 +18,12 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.item.DyeColor;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
 
 @Mixin(SheepWoolUndercoatLayer.class)
 public class SheepWoolUndercoatLayerMixin extends RenderLayer<Sheep, SheepModel<Sheep>> {
     //private static final ResourceLocation SHEEP_WOOL_UNDERCOAT_TEXTURE = new ResourceLocation("textures/entity/sheep/sheep_wool_undercoat.png");
+    @Unique
     private final LazyModel<Sheep, EntityModel<Sheep>> model;
 
     public SheepWoolUndercoatLayerMixin(RenderLayerParent<Sheep, SheepModel<Sheep>> renderer, EntityModelSet models) {
