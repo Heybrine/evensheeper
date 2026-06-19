@@ -2,7 +2,7 @@ package net.heybrine.evensheeper.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.heybrine.evensheeper.EvenSheeper;
+import net.heybrine.evensheeper.core.EvenSheeper;
 
 public final class EvenSheeperFabric implements ModInitializer {
     @Override
