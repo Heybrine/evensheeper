@@ -109,20 +109,20 @@
 [Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\dev\architectury\architectury-forge-5771f405\9.2.14\architectury-forge-5771f405-9.2.14.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\platform-5771f405\1.3.4-forge,1.20.1\platform-5771f405-1.3.4-forge,1.20.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\dudur\Downloads\Repositories\EvenSheeper\.gradle\loom-cache\remapped_mods\remapped\maven\modrinth\vanillabackport-5771f405\1.1.7.10-forge,1.20.1\vanillabackport-5771f405-1.1.7.10-forge,1.20.1.jar
-[Architectury Transformer] Read classpath in 1.801 s
+[Architectury Transformer] Read classpath in 1.967 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\6357867884853374906.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@6c3f5566
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@12405818
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@314c508a
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@10b48321
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@6b67034
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@16267862
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@453da22c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@71248c21
-[Architectury Transformer DEBUG] Transforming from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\6357867884853374906.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\17909660197961329266.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@12405818
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@314c508a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@10b48321
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6b67034
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@16267862
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@453da22c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@71248c21
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@442675e1
+[Architectury Transformer DEBUG] Transforming from C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar to C:\Users\dudur\AppData\Local\Temp\17909660197961329266.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$141/0x000002561508ebf8@475e586c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$141/0x000001d8dc08ebf8@657c8ad9
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
@@ -132,13 +132,13 @@
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/client/level/entities/model/sheep/WarmSheepModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/client/registries/ModModelLayers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/common/level/entities/animal/SheepVariant with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/common/level/entities/animal/SheepVariant$ModelType with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/common/level/entities/animal/SheepVariants with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/common/level/entities/animal/SheepVariant$ModelType with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/EvenSheeper with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/client/entities/renderer/SheepWoolUndercoatLayerMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/client/entities/renderer/SheepRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/client/entities/renderer/SheepFurLayerMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/common/entities/SheepMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/client/entities/renderer/SheepRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/mixin/common/entities/SheepMixinMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/registries/ModRegistries with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing net/heybrine/evensheeper/core/registries/ModBuiltinRegistries with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /evensheeper-common-1.20.1-common-refmap.json is a mixin config.
@@ -148,9 +148,9 @@
 [Architectury Transformer DEBUG] Found mixin config(s): evensheeper.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, evensheeper.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: evensheeper-forge-1.20.1-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\AppData\Local\Temp\6357867884853374906.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\AppData\Local\Temp\17909660197961329266.jar
 [Architectury Transformer] Listening at C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\dudur\AppData\Local\Temp\6357867884853374906.jar] contains packages: net.heybrine.evensheeper.common.level.entities.animal, net.heybrine.evensheeper.client.registries, net.heybrine.evensheeper.client.level.entities.model.sheep, net.heybrine.evensheeper.client, net.heybrine.evensheeper.core.mixin.common.entities, net.heybrine.evensheeper.core, net.heybrine.evensheeper.core.mixin.client.entities.renderer, net.heybrine.evensheeper.core.registries, net.heybrine.evensheeper.client.api.renderer.renderers
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\dudur\AppData\Local\Temp\17909660197961329266.jar] contains packages: net.heybrine.evensheeper.common.level.entities.animal, net.heybrine.evensheeper.client.registries, net.heybrine.evensheeper.client.level.entities.model.sheep, net.heybrine.evensheeper.client, net.heybrine.evensheeper.core.mixin.common.entities, net.heybrine.evensheeper.core, net.heybrine.evensheeper.core.mixin.client.entities.renderer, net.heybrine.evensheeper.core.registries, net.heybrine.evensheeper.client.api.renderer.renderers
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\dudur\Downloads\Repositories\EvenSheeper\common\build\devlibs\evensheeper-common-1.20.1-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\dudur\Downloads\Repositories\EvenSheeper\forge\build\classes\java\main] contains packages: net.heybrine.evensheeper.forge
 [Architectury Transformer DEBUG] Classpath entry [C:\Users\dudur\Downloads\Repositories\EvenSheeper\forge\build\resources\main] contains packages: 

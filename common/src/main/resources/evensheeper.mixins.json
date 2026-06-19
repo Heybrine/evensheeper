@@ -9,7 +9,7 @@
     "client.entities.renderer.SheepWoolUndercoatLayerMixin"
   ],
   "mixins": [
-    "common.entities.SheepMixin"
+    "common.entities.SheepMixinMixin"
   ],
   "injectors": {
     "defaultRequire": 1
