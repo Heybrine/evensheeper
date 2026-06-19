@@ -3,7 +3,7 @@ plugins {
 }
 
 loom {
-    accessWidenerPath = project(":common").loom.accessWidenerPath
+    //accessWidenerPath = project(":common").loom.accessWidenerPath
 
     runs{
         datagen {

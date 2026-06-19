@@ -3,7 +3,7 @@ plugins {
 }
 
 loom {
-    accessWidenerPath = project(":common").loom.accessWidenerPath
+    /*accessWidenerPath = project(":common").loom.accessWidenerPath
 
     forge {
         convertAccessWideners = true
@@ -11,7 +11,7 @@ loom {
 
         mixinConfig "evensheeper.mixins.json"
         mixinConfig "evensheeper.forge.mixins.json"
-    }
+    }*/
 }
 
 sourceSets.main.resources.srcDirs += project(":common").file("src/main/generated")
@@ -40,7 +40,6 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:$rootProject.forge_version"
-    modImplementation "flatDir:Platform-forge-1.20.1-$rootProject.platform_indev_version"
 
     // Architectury API. This is optional, and you can comment it out if you don't need it.
     modImplementation "dev.architectury:architectury-forge:$rootProject.architectury_api_version"
